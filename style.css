@@ -1,0 +1,328 @@
+* {
+
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+
+}
+
+
+header {
+
+    background: url(./trening-po-rabote-s-klientami.jpg);
+    background-size: cover;
+    background-position: center center;
+    height: 600px;
+
+}
+
+
+header nav {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background: #ffffff;
+    padding: 17px 0;
+
+}
+
+
+header nav ul {
+
+    display: flex;
+    justify-content: space-between;
+    width: 500px;
+
+}
+
+
+.logo {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 140px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    color: #DD4400;
+
+}
+
+
+header nav ul li a {
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    color: #4E4E4E;
+
+}
+
+
+header nav ul li a:hover {
+
+    color: #DD4400;
+
+}
+
+
+section {
+
+    padding: 200px;
+
+}
+
+
+section .menu {
+
+    display: flex;
+    justify-content: space-between;
+    width: 1100px;
+    margin: auto;
+
+}
+
+section .menu .box {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 255px;
+    width: 186px;
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5);
+
+}
+
+section .menu hr {
+
+    width: 100%;
+    border-color: #DD4400;
+
+}
+
+
+section .menu .box button {
+
+    color: white;
+    background-color: #DD4400;
+    border: #DD4400;
+    width: 146px;
+    height: 29px;
+
+}
+
+
+section .menu .box h2 {
+
+    color: #DD4400;
+    text-align: center;
+
+}
+
+
+/* menu2/ */
+
+
+
+
+footer .menu2 {
+
+    display: flex;
+    width: 1100px;
+    margin: auto;
+    height: 500px;
+
+}
+
+
+
+footer .menu2 .box2 {
+
+    width: 550px;
+    height: 500px;
+    text-align: justify;
+    justify-content: space-around
+}
+
+
+footer .menu2 .box2 h3 {
+
+    padding-bottom: 35px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27px;
+    color: #5E5E5E
+}
+
+footer .menu2 .box2 p {
+
+    padding-bottom: 16px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #000000;
+
+}
+
+
+footer .menu2 .box2 button {
+
+    color: white;
+    background-color: #DD4400;
+    border: 0px;
+    position: absolute;
+    width: 146px;
+    height: 29px;
+    margin-left: auto;
+    margin-top: 37px;
+
+}
+
+
+.menu3 {
+
+    display: flex;
+    width: 550px;
+    height: 500px;
+
+}
+
+
+.menu3 .box3 h4 {
+
+    margin: auto;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #DD4400;
+
+}
+
+
+.menu3 h3 {
+
+    padding-bottom: 700px;
+    text-align: center;
+    padding-left: 40%;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 27px;
+    color: #5E5E5E;
+
+}
+
+
+.menu3 .box3 img {
+
+    padding-top: 25px;
+
+}
+
+
+/* kantak */
+
+
+.menu4 {
+    
+    background-color: #DD4400;
+    width: auto;
+    height: 183px;
+    display: flex;
+
+}
+
+.menu4 {
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.menu4 .box5 {
+
+    align-content: space-around;
+}
+
+.menu4 .box4 h4 {
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 27px;
+    color: #FFFFFF;
+
+}
+
+.menu4 .box4 a {
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 39px;
+    color: #FFFFFF;
+
+}
+
+.menu4 .box4 p {
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 16px;
+    color: #FFFFFF;
+
+}
+
+.menu4 .box5 h2 {
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 27px;
+    color: #FFFFFF;
+
+}
+
+.menu4 .box5 p {
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    color: #FFFFFF;
+
+}
+
+.box5 a {
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    color: #FFFFFF;
+
+}
